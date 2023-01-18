@@ -5,6 +5,8 @@ import Footer from '../components/footer/Footer'
 import InsuranceSection from '../components/insurance/InsuranceSection';
 
 
+
+
 const InsurancePage = () => {
     return (
         <>
