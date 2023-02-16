@@ -46,7 +46,7 @@ const Navbar = () => {
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} width="120px" height="70px" alt="Redding Rehab Logo" loading="lazy"/>
+                    <img src={logo} width="100px" height="60px" alt="Redding Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 
