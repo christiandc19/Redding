@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Redding/static/css/main.6b527fd6.css",
-    "main.js": "/Redding/static/js/main.1cc35e15.js",
+    "main.css": "/Redding/static/css/main.537a4188.css",
+    "main.js": "/Redding/static/js/main.ab9bf79c.js",
     "static/media/whatwedo.png": "/Redding/static/media/whatwedo.bc99304c70e92530ca15.png",
-    "static/media/hero-bg.jpg": "/Redding/static/media/hero-bg.d0a7813f3bd0c3cc2b37.jpg",
-    "static/media/menu-bg-treatment.jpg": "/Redding/static/media/menu-bg-treatment.140ade98e1c257d84734.jpg",
-    "static/media/menu-bg-about.jpg": "/Redding/static/media/menu-bg-about.69cb35ce48fbdeb1176b.jpg",
+    "static/media/menu-bg-treatment.jpg": "/Redding/static/media/menu-bg-treatment.cf6806712f49cc2029a8.jpg",
+    "static/media/hero-bg.jpg": "/Redding/static/media/hero-bg.7f5f796e0c92f5083853.jpg",
+    "static/media/menu-bg-about.jpg": "/Redding/static/media/menu-bg-about.3b70f99146897f338031.jpg",
     "static/media/whatwedo2.png": "/Redding/static/media/whatwedo2.960c76ca1d89af0acc4c.png",
     "static/media/mh-submenu-bg.jpg": "/Redding/static/media/mh-submenu-bg.b41155bca1af6f12a7f7.jpg",
     "static/media/sa-submenu-bg.jpg": "/Redding/static/media/sa-submenu-bg.5d1614d4cb6f11156dd1.jpg",
     "static/media/employment-assistance.jpg": "/Redding/static/media/employment-assistance.901043c1cb7000c857c3.jpg",
+    "static/media/menu-bg-mission.jpg": "/Redding/static/media/menu-bg-mission.85a5c7d88d8e24e37723.jpg",
     "static/media/submenu-bg-jobs.jpg": "/Redding/static/media/submenu-bg-jobs.8c4e27270e58032cbb35.jpg",
     "static/media/menu-bg-insurance.jpg": "/Redding/static/media/menu-bg-insurance.95c30f861e6c14eebb6d.jpg",
-    "static/media/menu-bg-mission.jpg": "/Redding/static/media/menu-bg-mission.ad81ca1b33d463b33686.jpg",
     "static/media/footer-bg.jpg": "/Redding/static/media/footer-bg.709babafdb9b7f45238c.jpg",
     "static/media/menu-bg-contact.jpg": "/Redding/static/media/menu-bg-contact.09bd03f95e8ad26cc3d5.jpg",
     "static/media/treatment-1.jpg": "/Redding/static/media/treatment-1.9b93aa36872433733c19.jpg",
@@ -22,7 +22,6 @@
     "static/media/submenu-bg.jpg": "/Redding/static/media/submenu-bg.ebb4f6c7d8bd77ad609a.jpg",
     "static/media/therapy.jpg": "/Redding/static/media/therapy.dad0142aa6ca32c0ca9b.jpg",
     "static/media/clinic.jpg": "/Redding/static/media/clinic.df2089786a9615989f92.jpg",
-    "static/media/nav-logo.png": "/Redding/static/media/nav-logo.78e375ef5f8bdc4522a1.png",
     "static/media/card2.jpg": "/Redding/static/media/card2.68fad768227caf1d1564.jpg",
     "static/media/nav-logo-wh.png": "/Redding/static/media/nav-logo-wh.02e2221f578f2f155f5d.png",
     "static/media/card1.jpg": "/Redding/static/media/card1.8a8b301b414fc29b4840.jpg",
@@ -42,11 +41,11 @@
     "static/media/bluecross.png": "/Redding/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/Redding/index.html",
     "static/media/waves.svg": "/Redding/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.6b527fd6.css.map": "/Redding/static/css/main.6b527fd6.css.map",
-    "main.1cc35e15.js.map": "/Redding/static/js/main.1cc35e15.js.map"
+    "main.537a4188.css.map": "/Redding/static/css/main.537a4188.css.map",
+    "main.ab9bf79c.js.map": "/Redding/static/js/main.ab9bf79c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b527fd6.css",
-    "static/js/main.1cc35e15.js"
+    "static/css/main.537a4188.css",
+    "static/js/main.ab9bf79c.js"
   ]
 }
