@@ -26,7 +26,7 @@ const WhatWeDo = () => {
         <div className='box-btn'>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
             <Link to="/treatment">
-               <button>Learn More</button>
+               <button>LEARN MORE</button>
             </Link>
         </LinkRoll>
 

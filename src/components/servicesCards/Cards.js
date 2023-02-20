@@ -27,6 +27,7 @@ const Cards = () => {
   </Fade>
   <div class="text">
   <h1>MENTAL HEALTH TREATMENT​</h1>
+  <hr/>
   <p class="animate-text">Some of our clients are here to attend to their mental health, and some come to us for help with addiction and sobriety. Depending on your needs, we offer treatment for co-occurring disorders that can address both mental health and addiction disorders at the same time.</p>
     <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -44,6 +45,7 @@ const Cards = () => {
 </Fade>
   <div class="text">
   <h1>SUBSTANCE ABUSE TREATMENT</h1>
+  <hr/>
   <p class="animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Palm Springs Rehab.</p>
   <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -63,6 +65,7 @@ const Cards = () => {
   </Fade>
   <div class="text">
   <h1>EMPLOYMENT ASSISTANCE</h1>
+  <hr/>
   <p class="animate-text">We offer a variety of employment tools and resources to help you land on your feet and get hired at a great company in recovery.</p>
   <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>

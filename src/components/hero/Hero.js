@@ -3,11 +3,8 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
-// import BgVideo from '../../assets/hero-vbg.mp4'
 
-import waves from '../../assets/waves.svg'
-
-
+import Waves from '../../assets/waves.svg'
 
 const Hero = () => {
     return (
@@ -18,7 +15,7 @@ const Hero = () => {
         <div className='hero'>
 
         <div className='hero-divider'>
-                <img src={waves} loading="lazy" repeat-x alt='wave divider'/>
+                <img src={Waves} loading="lazy" repeat-x alt='wave divider'/>
             </div>
 
 
@@ -31,7 +28,7 @@ const Hero = () => {
                         <br />
                         <div className='hero-btn'>
                         <Link to="/contact">
-                        <button>Get an Appointment</button>
+                        <button>GET AN APPOINTMENT</button>
                     </Link>
                     </div>
                     <br />
