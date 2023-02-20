@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Redding/static/css/main.d6b8e79d.css",
-    "main.js": "/Redding/static/js/main.078ca6fe.js",
+    "main.css": "/Redding/static/css/main.6b527fd6.css",
+    "main.js": "/Redding/static/js/main.1cc35e15.js",
     "static/media/whatwedo.png": "/Redding/static/media/whatwedo.bc99304c70e92530ca15.png",
+    "static/media/hero-bg.jpg": "/Redding/static/media/hero-bg.d0a7813f3bd0c3cc2b37.jpg",
     "static/media/menu-bg-treatment.jpg": "/Redding/static/media/menu-bg-treatment.140ade98e1c257d84734.jpg",
     "static/media/menu-bg-about.jpg": "/Redding/static/media/menu-bg-about.69cb35ce48fbdeb1176b.jpg",
-    "static/media/hero-bg.jpg": "/Redding/static/media/hero-bg.07850e837733f65eab5f.jpg",
     "static/media/whatwedo2.png": "/Redding/static/media/whatwedo2.960c76ca1d89af0acc4c.png",
     "static/media/mh-submenu-bg.jpg": "/Redding/static/media/mh-submenu-bg.b41155bca1af6f12a7f7.jpg",
     "static/media/sa-submenu-bg.jpg": "/Redding/static/media/sa-submenu-bg.5d1614d4cb6f11156dd1.jpg",
@@ -24,6 +24,7 @@
     "static/media/clinic.jpg": "/Redding/static/media/clinic.df2089786a9615989f92.jpg",
     "static/media/nav-logo.png": "/Redding/static/media/nav-logo.78e375ef5f8bdc4522a1.png",
     "static/media/card2.jpg": "/Redding/static/media/card2.68fad768227caf1d1564.jpg",
+    "static/media/nav-logo-wh.png": "/Redding/static/media/nav-logo-wh.02e2221f578f2f155f5d.png",
     "static/media/card1.jpg": "/Redding/static/media/card1.8a8b301b414fc29b4840.jpg",
     "static/media/card3.jpg": "/Redding/static/media/card3.cb6d41421c9c28351d8f.jpg",
     "static/media/IopSection1.jpg": "/Redding/static/media/IopSection1.2c6d9291efd554cf9cd8.jpg",
@@ -41,11 +42,11 @@
     "static/media/bluecross.png": "/Redding/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/Redding/index.html",
     "static/media/waves.svg": "/Redding/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.d6b8e79d.css.map": "/Redding/static/css/main.d6b8e79d.css.map",
-    "main.078ca6fe.js.map": "/Redding/static/js/main.078ca6fe.js.map"
+    "main.6b527fd6.css.map": "/Redding/static/css/main.6b527fd6.css.map",
+    "main.1cc35e15.js.map": "/Redding/static/js/main.1cc35e15.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6b8e79d.css",
-    "static/js/main.078ca6fe.js"
+    "static/css/main.6b527fd6.css",
+    "static/js/main.1cc35e15.js"
   ]
 }
