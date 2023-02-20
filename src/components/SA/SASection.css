@@ -41,18 +41,20 @@
 
 .sa-tile .sa-text
 {
-/*   z-index:99; */
   position:absolute;
   padding:30px;
   height:calc(100% - 60px);
 }
 
-.sa-tile h1, .sa-tile h5
-{
-  color: rgb(255, 255, 255);
-  font-weight:300;
-  margin:0;
-  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+.sa-tile h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+.sa-text h5 {
+  font-weight: 300;
 }
 
 .sa-tile h2
@@ -118,6 +120,11 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 
 .sa-cards-header p {
   font-family: 'Montserrat', sans-serif;
+}
+
+.sa-card-wrap span {
+  color: white;
+  font-weight: 800;
 }
 
 @media (max-width: 940px) {

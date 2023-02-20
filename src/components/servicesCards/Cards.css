@@ -13,7 +13,7 @@
 .tile
 {
   width:270px;
-  height:380px;
+  height:350px;
   margin:10px;
   display:inline-block;
   background-size:cover;
@@ -47,14 +47,16 @@
   padding:30px;
   height:calc(100% - 60px);
 }
-.tile h1
-{
+
+.tile h1 {
   color: white;
   margin:0;
   text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
   font-size: 1rem;
   padding-bottom: 10px;
+  font-weight: 400;
 }
+
 .tile h2
 {
   font-weight:100;
@@ -72,6 +74,7 @@
   transform: translateX(-200px);
   transition-delay: 0.2s;
   font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
 }
 .animate-text
 {
@@ -131,7 +134,7 @@ hr {
   height: 0.25em;
   box-sizing: content-box;
   border: none;
-  background: #D0BC57;
+  background: white;
 }
 
 .cards-header {

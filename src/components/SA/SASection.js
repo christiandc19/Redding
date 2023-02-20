@@ -30,7 +30,7 @@ const MHSection = () => {
   </Fade>
   <div class="sa-text">
   <h5>SUBTANCE ABUSE​</h5>
-  <h1>Partial Hospitalizaion Program​</h1>
+  <h1><span>P</span>artial <span>H</span>ospitalization <span>P</span>rogram​</h1>
   <p class="sa-animate-text">Some of our clients are here to attend to their mental health, and some come to us for help with addiction and sobriety.</p>
     <div class="sa-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -48,7 +48,7 @@ const MHSection = () => {
 </Fade>
   <div class="sa-text">
   <h5>SUBTANCE ABUSE​</h5>
-  <h1>Intensive Outpatient Program</h1>
+  <h1><span>I</span>ntensive <span>O</span>utpatient <span>P</span>rogram</h1>
   <p class="sa-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Oxnard Rehab.</p>
   <div class="sa-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -69,7 +69,7 @@ const MHSection = () => {
   </Fade>
   <div class="sa-text">
   <h5>SUBTANCE ABUSE​</h5>
-  <h1>Outpatient Program</h1>
+  <h1><span>O</span>utpatient <span>P</span>rogram</h1>
   <p class="sa-animate-text">We offer a variety of employment tools and resources to help you land on your feet and get hired at a great company in recovery.</p>
   <div class="sa-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>

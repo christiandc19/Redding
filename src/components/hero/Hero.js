@@ -23,7 +23,7 @@ const Hero = () => {
                 <div className="content">
                         <h1 className="animate-charcter">REDDING REHAB</h1>
                     <Fade left>
-                        <h2 className='subtitle'>Substance Abuse Addiction and <br/>Mental Health Treatment Facility</h2>
+                        <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
                     </Fade>
                         <br />
                         <div className='hero-btn'>
@@ -33,7 +33,7 @@ const Hero = () => {
                     </div>
                     <br />
                     <Fade bottom>
-                        <p>Find your happiness and learn to put it first.</p>
+                        <p>"Find your happiness and learn to put it first."</p>
                     </Fade>
                 </div>
             </div>

@@ -56,7 +56,7 @@ const ContactForm = () => {
         <div class="email details">
           <i class="fas fa-envelope"></i>
           <div class="topic">Email</div><br/>
-          <div class="text-one">info@domainName.com</div>
+          <div class="text-one">info@reddingrehab.com</div>
         </div>
       </div>
 

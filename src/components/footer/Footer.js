@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
-import logo from '../../assets/nav-logo.png'
+import logo from '../../assets/nav-logo-wh.png'
 // import { FiMail, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi'
 import './FooterStyles.css'
 
@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className="col-container">
 
                     <div className="col">
-                        <h3>My Account</h3>
+                        <h3>Company</h3>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/mission'><p>Our Mission</p></Link>
