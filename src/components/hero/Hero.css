@@ -116,6 +116,10 @@
         width: 100%;
     }
 
+    .hero {
+        height: 60vh;
+    }
+
 }
 
 
