@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
 
+import Wave2 from '../../assets/wave2.svg'
 
 import WhatWeDoImg from '../../assets/whatwedo.png'
 import WhatWeDoImg2 from '../../assets/whatwedo2.png'
@@ -12,6 +13,16 @@ import WhatWeDoImg2 from '../../assets/whatwedo2.png'
 const WhatWeDo = () => {
   return (
     <>
+
+
+
+
+<div>
+<div class="wrap-divider-top">
+<img src={Wave2} loading="lazy" repeat-x alt='wave divider'/>
+</div>
+
+
 <div className='wrap'>
     <Fade left>
     <div className="box left">
@@ -29,7 +40,6 @@ const WhatWeDo = () => {
                <button>LEARN MORE</button>
             </Link>
         </LinkRoll>
-
         </div>    
     </div>
     </Fade>
@@ -43,8 +53,8 @@ const WhatWeDo = () => {
         <img src={WhatWeDoImg2} width="250px" height="500px" alt="Conselling Session with a patient" loading="lazy" />
     </div>
     </Fade>
+</div>
 
-    
 </div>
     
     </>

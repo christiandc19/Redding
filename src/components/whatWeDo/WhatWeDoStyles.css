@@ -4,7 +4,9 @@
   display: flex;
   flex-wrap: wrap ;
   justify-content: space-evenly;
-  margin: 5rem 0 0 0;
+  padding: 5rem 0 5rem 0;
+  margin: 5rem 0 5rem 0;
+  background-color: rgba(9, 95, 145, 0.096);
 }
 
 .box {
@@ -46,6 +48,33 @@
 .box-btn {
     text-align: center;
 }
+
+
+.wrap-divider-top {
+    position: absolute;
+    top: 5;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+  
+
+  .wrap-divider-top img {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 940px) {
+  
+    .wrap-divider-top img {
+      display: none;
+    }
+  
+  }
+
+
+
 
 /* MEDIA QUERIES */
 
