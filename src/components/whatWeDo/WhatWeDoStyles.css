@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 .wrap {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap ;
+  flex-wrap: wrap-reverse ;
   justify-content: space-evenly;
-  padding: 5rem 0 5rem 0;
+  padding: 7rem 0 5rem 0;
   margin: 5rem 0 5rem 0;
   background-color: rgba(9, 95, 145, 0.096);
 }
@@ -18,26 +19,26 @@
 
 .box-right {
     width: 500px;
-    text-align: center;
 }
 
-.box-right img{
-    max-width: auto;
+.box-left {
+    width: 500px;
 }
 
-.box-right2 {
-    width: 250px;
-    display: none;
+.box-right img {
+    width: 100%;
+    border-radius: 10px;
+
 }
+
+
 
 .wrap .header {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
-.box img {
-    border-radius: 10px;
-}
+
 
 .wrap p {
     font-size: 15px;
@@ -81,9 +82,7 @@
 @media screen and (max-width:940px) {
 
 
-    .box img {
-        display: none;
-    }
+
 
     .wrap p {
         font-size: 14px;
@@ -102,12 +101,7 @@
     margin: 1rem auto;
 }
 
-.box-right {
-    display: none;
-}
 
-.box-right2 {
-    display: block;
-}
+
 
 }

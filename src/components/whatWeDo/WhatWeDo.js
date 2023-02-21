@@ -7,7 +7,6 @@ import { Link as LinkRoll } from 'react-scroll'
 import Wave2 from '../../assets/wave2.svg'
 
 import WhatWeDoImg from '../../assets/whatwedo.png'
-import WhatWeDoImg2 from '../../assets/whatwedo2.png'
 
 
 const WhatWeDo = () => {
@@ -17,15 +16,21 @@ const WhatWeDo = () => {
 
 
 
-<div>
+<div className='wrapper'>
 <div class="wrap-divider-top">
 <img src={Wave2} loading="lazy" repeat-x alt='wave divider'/>
 </div>
 
 
 <div className='wrap'>
+
+<Fade right>
+    <div className="box-right">
+        <img src={WhatWeDoImg} alt="Conselling Session with a patient" loading="lazy" />
+    </div>
+    </Fade>
     <Fade left>
-    <div className="box left">
+    <div className="box-left">
         <h1 className='header'>WHAT WE DO</h1>
         <br/>
         <p>At Redding Rehab Treatment Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). <br /> <br />You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.</p>
@@ -41,16 +46,6 @@ const WhatWeDo = () => {
             </Link>
         </LinkRoll>
         </div>    
-    </div>
-    </Fade>
-
-    <Fade right>
-    <div className="box-right">
-        <img src={WhatWeDoImg} width="350px" height="520px" alt="Conselling Session with a patient" loading="lazy" />
-    </div>
-
-    <div className="box-right2">
-        <img src={WhatWeDoImg2} width="250px" height="500px" alt="Conselling Session with a patient" loading="lazy" />
     </div>
     </Fade>
 </div>
