@@ -43,14 +43,14 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">71777 San Jacinto Dr Suite 102,</div>
-          <div class="text-two">Rancho Mirage, Ca 92270</div>
+          <div class="text-one">3580 Santa Rosa Way</div>
+          <div class="text-two">Redding, CA 96003</div>
         </div>
 
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3237920605"> +1 (323) 792-0605</a></div>
+          <div class="text-one"><a href="tel:3234526659"> +1 (323) 452-6659</a></div>
         </div>
 
         <div class="email details">

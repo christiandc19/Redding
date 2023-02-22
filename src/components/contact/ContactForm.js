@@ -60,7 +60,7 @@ const ContactForm = () => {
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3237920605"> +1 (123) 792-0605</a></p>
+            <p><AiOutlinePhone /><a href="tel:3234526659"> +1 (123) 452-6659</a></p>
     </div>
 
     <div class="get_form_inner2">
@@ -70,7 +70,7 @@ const ContactForm = () => {
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill />71777 San Jacinto Dr Suite 102, Rancho Mirage, Ca 92270</p>
+            <p><BsFillPinMapFill />3580 Santa Rosa Way Redding, CA 96003</p>
     </div>
 
 </div>
