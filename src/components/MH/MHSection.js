@@ -30,7 +30,7 @@ const MHSection = () => {
   <hr/>
   <h1><span>P</span>artial <span>H</span>ospitalization <span>P</span>rogram​</h1>
   <p class="mh-animate-text">Some of our clients are here to attend to their mental health, and some come to us for help with addiction and sobriety.</p>
-    <div class="mh-animate-text">
+    <div class="mh-animate-text mh-btn">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/mental-health-php">
             <button>Learn More</button>
