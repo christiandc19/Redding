@@ -48,7 +48,7 @@ const MHSection = () => {
   <h5>MENTAL HEALTH​</h5>
   <hr/>
   <h1><span>I</span>ntensive <span>O</span>utpatient <span>P</span>rogram</h1>
-  <p class="mh-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Oxnard Rehab.</p>
+  <p class="mh-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Redding Rehab.</p>
   <div class="mh-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/mental-health-iop">
