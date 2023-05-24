@@ -1,99 +1,152 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair&display=swap');
 
+.fling-minislide { 
+  display:block; 
+  width:100vw; 
+  height:70vh; 
+  overflow:hidden; 
+  position:relative; 
+  background-color:#000000;
+  border: 2rem solid white;
+  margin-top: -2rem;
+}
+
+.fling-minislide img { 
+  position:absolute; 
+  animation:fling-minislide 32s infinite, zoom-in 32s infinite; 
+  opacity:0;  
+  object-fit:cover; 
+  width:100vw; 
+  height:100%;
+} 
+  
+  /**/
+
+@keyframes fling-minislide {28%{opacity:1;} 32%{opacity:0;}}
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:8s;}
+.fling-minislide img:nth-child(2){animation-delay:16s;}
+.fling-minislide img:nth-child(1){animation-delay:24s;}
+
+@keyframes zoom-in{0%{transform:scale(1) translateY(0);transform-origin:50% 84%}100%{transform:scale(1.5) translateY(15px);transform-origin:center}}
+
+.hero .hero-container .content {
+  width: 100vw;
+  text-align: center;
+}
 
 .hero {
-    width: 100%;
-    height: 80vh;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: url('../../assets/hero-bg-2.jpg') no-repeat center bottom/cover;
-    z-index: -2;
-
-
-  }
-  
-  .hero:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/hero-bg-3.png') no-repeat center bottom/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-
-  }
-
-
-.hero .hero-container {
-    top: 15%;
-    position: absolute;
-    align-items: center;
-    text-align: center;
-    margin: 1rem;
-    width: 100%;
-    z-index: -2;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.hero-logo {
-    text-align: center;
+.title-wrapper{
+  position:absolute;
+  width: 100vw;
+  align-items:center;
+  top: 30%;
+  left: 10%;
+  padding: 1rem;
 }
 
-.hero h1 {
-    font-size: 5rem;
-    color: var(--primary-color);
-    font-family: 'Montserrat', sans-serif;
+
+.title-wrapper h1 {
+  font-size: 5rem;
+  color: white;
+  letter-spacing: 5px;
+  font-family: 'Playfair', serif;
 }
 
-.hero h2 {
-    font-size: 1rem;
-    color: var(--primary-color);
-    text-transform: uppercase;
+.title-wrapper h2 {
+  color: white;
+  letter-spacing: 5px;
 }
 
-.hero-container p {
-    font-size: 14px;
-    color: rgb(0, 0, 0);
-    font-style: italic;
+.title-wrapper H3 {
+  color: white;
 }
 
-.hero .hero-btn button {
-    cursor: pointer;
-    margin: 0;
+.hero-btn {
+  display: flex;
+  gap: 1rem;
 }
 
+.hero-btn button {
+  font-family: 'Roboto', sans-serif;
+  padding: .7rem 5rem;
+  margin: 1rem 0;
+  background-color: white;
+  font-family: 'Playfair', serif;
+  border: none;
+  color: #1a1a1b;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor:pointer;
+}
+
+.hero-btn2 button {
+  font-family: 'Roboto', sans-serif;
+  padding: .7rem 5rem;
+  margin: 1rem 0;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: 'Playfair', serif;
+  border: 1px solid white;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor:pointer;
+}
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:1300px) {
 
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero .subtitle {
-        font-size: 15px;
-    }
-
-    .hero .hero-container p {
-        font-size: 14px;
-        margin: 0;
-    }
-
-    .hero {
-        height: 60vh;
-    }
+  .hero .title-wrapper{
+    left: 0%;
+    text-align: center;
+    width: 100%;
+}
 
     .hero h2 {
         font-size: 18px;
     }
 
-    .hero p {
-        font-size: 12px;
+    .hero h1 {
+    font-size: 4rem;
     }
 
-    .hero .hero-container {
-        top: 25%;
+    .hero p {
+        font-size: 16px;
     }
+
+    .hero-btn {
+      justify-content: center;    
+    }
+
+}
+
+
+@media screen and (max-width:700px) {
+
+    .hero h2 {
+      font-size: 1rem;
+  }
+
+  .hero h1 {
+  font-size: 3rem;
+  }
+
+  .hero-btn button, .hero-btn2 button {
+    padding: .7rem 3rem;
+  }
+
+  .fling-minislide { 
+    height:100vh; 
+  }
+
+
 
 }

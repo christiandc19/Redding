@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+#cards {
+  background-color: #F6F5EE;
+  padding: 2rem 0;
+}
+
 
 .card-wrap
 {
@@ -7,24 +14,58 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items:space-around;
+  gap: 2rem;
+}
 
+
+.cards-header .cards-header-left {
+  padding: 1rem;
+}
+
+.cards-header .cards-header-left p {
+  font-size: 14px;
+}
+
+.cards-header .cards-header-left h3 {
+  font-size: 1.5rem;
+}
+
+.cards-header .cards-header-left span{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 1.8rem;
+  color: rgb(207, 95, 4);
+}
+
+.main-cards-header h1 {
+  padding: 3rem 1rem 0 1rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: rgb(65, 66, 66);
+}
+
+.main-cards-header h2{
+  padding: 0 1rem 0 1rem;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.5rem;
+  color: rgb(207, 95, 4);
 }
 
 .tile
 {
   width:300px;
-  height:280px;
+  height:320px;
   margin:10px;
   display:inline-block;
   background-size:cover;
   position:relative;
   transition: all 0.4s ease-out;
   overflow:hidden;
-  color:white;
   text-align: center;
   font-family:'Roboto';
   border-radius: 10px;
-  box-shadow: 10px 5px 5px rgba(129, 129, 129, 0.315);
+  box-shadow: 10px 5px 5px rgba(129, 129, 129, 0.438);
 }
 
 .tile img
@@ -47,16 +88,13 @@
   padding:30px;
   height:calc(100% - 60px);
 }
-
-.tile h1 {
+.tile h1
+{
   color: white;
+  font-size: 1rem;
   margin:0;
   text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-  font-size: 1rem;
-  padding-bottom: 10px;
-  font-weight: 400;
 }
-
 .tile h2
 {
   font-weight:100;
@@ -69,12 +107,10 @@
 {
   color: white;
   margin:20px 0 0 0;
-  line-height: 20px;
+  font-size: 12px;
   opacity:0;
   transform: translateX(-200px);
   transition-delay: 0.2s;
-  font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
 }
 .animate-text
 {
@@ -82,31 +118,7 @@
   transition: all 0.6s ease-in-out;
 }
 
-
-.animate-text button
-{
-  padding: .3rem 2rem;
-  background-color: rgba(255, 255, 255, 0.568);
-  color: black;
-  border: white;
-  border-radius: 10px;
-  bottom: 0%;
-}
-
-
-.animate-text button:hover
-{
-  padding: .3rem 2rem;
-  background-color: rgba(22, 22, 22, 0.568);
-  color: white;
-  border: white;
-  border-radius: 10px;
-  bottom: 0%;
-}
-
-
 .tile:hover {
-/*   background-color:#99aeff; */
 box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   transform:scale(1.05);
 } 
@@ -128,25 +140,25 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 
 
-hr {
-  width: 3em;
-  margin: auto;
-  height: 0.25em;
-  box-sizing: content-box;
-  border: none;
-  background: white;
-}
-
 .cards-header {
+    display: flex;
+    flex-wrap: wrap;
     width: auto;
-    text-align: center;
+    text-align: justify;
     margin: 2rem auto;
     padding: 1rem;
 }
 
-.cards-header span {
-  font-size: 1.3rem;
-  font-weight: 800;
+.cards-header-left {
+  width: 300px;
+  text-align: left;
+}
+
+.cards-header-left h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: rgb(65, 66, 66);
 }
 
 .cards-header h1 {
@@ -158,18 +170,17 @@ hr {
 
 .cards-header p {
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 
-.wrap button {
-  background-color: var(--primary-color);
-  color: white;
-}
-
-
-
-  @media (max-width: 940px) {
+  @media (max-width: 1410px) {
     .card-wrap {
       width: 100%;
     }
-  
+
+    .cards-header-left {
+      width: 100%;
+      text-align: center;
+    }
+
   }
