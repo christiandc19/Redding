@@ -70,7 +70,7 @@
 }
 
 .TherapyMH-right .box {
-    height: 320px;
+    height: auto;
     width: 350px;
     background-color: rgba(238, 198, 153, 0.274);
     margin: 1rem;

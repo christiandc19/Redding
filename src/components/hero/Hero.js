@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import Fade from "react-reveal/Fade";
+import Fade from "react-reveal/Fade";
 import "./Hero.css";
 import Hero1 from '../../assets/hero-1-min.jpg'
 import Hero2 from '../../assets/hero-2-min.jpg'
@@ -21,21 +21,34 @@ const Hero = () => {
       </div>
 
       <div class="title-wrapper">
-        <h2>WELCOME TO</h2>
-      <h1>Redding Rehab</h1>
-      <h3>SUBSTANCE ABUSE ADDICTION AND MENTAL HEALTH TREATMENT FACILITY</h3>
+
+        <Fade left>
+          <h2>WELCOME TO</h2>
+        </Fade>
+
+        <Fade right>
+          <h1>Redding Rehab</h1>
+        </Fade>
+
+        <Fade left>
+          <h3>SUBSTANCE ABUSE ADDICTION AND MENTAL HEALTH TREATMENT FACILITY</h3>
+        </Fade>
 
         <div className="hero-btn">
 
           <div>
             <Link to="/contact">
-              <button>CALL US</button>
+              <Fade left>
+                <button>CALL US</button>
+              </Fade>
             </Link>
           </div>
 
           <div className="hero-btn2">
             <Link to="/method">
-              <button>LEARN MORE</button>
+              <Fade right>
+                <button>LEARN MORE</button>
+              </Fade>
             </Link>
 
           </div>

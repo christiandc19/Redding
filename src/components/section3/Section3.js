@@ -4,7 +4,12 @@ import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 
 
-import { BiBrain } from "react-icons/bi";
+import { BsPeople } from "react-icons/bs";
+import { BsGear } from "react-icons/bs";
+import { BiTime } from "react-icons/bi";
+import { RiSuitcaseLine } from "react-icons/ri";
+
+
 
 const Section3 = () => {
   return (
@@ -13,7 +18,7 @@ const Section3 = () => {
 
         <div className="component3 container">
           <div className="c3-left">
-            <h2>MENTAL HEALTH SERVICES </h2>
+            <h2>WHO WE ARE </h2>
             <h1>
               Redding Rehab makes getting treatment{" "}
               <i>
@@ -32,8 +37,8 @@ const Section3 = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/mental-health">
-                  <button>VIEW ALL</button>
+                <Link to="/contact">
+                  <button>CONTACT US</button>
                 </Link>
               </LinkRoll>
             </div>
@@ -44,67 +49,65 @@ const Section3 = () => {
               <div className="c2-card-img"></div>
               <div className="c3-card-flex">
                 <h2>
-                  <BiBrain />
+                  <BsPeople />
                 </h2>
-                <h1>STRESS MANAGEMENT</h1>
+                <h1>DEDICATED STAFF</h1>
               </div>
               <p>
-                Answer a few questions about your medical history to match with
-                your free medical assistant.
+              The medical professionals on our team are completely dedicated to your recovery.
               </p>
-              <div className="c3-link">
-                <p>LEARN MORE</p>
-              </div>
             </div>
 
             <div className="c3-card c3-card1">
               <div className="c3-card-img"></div>
               <div className="c3-card-flex">
                 <h2>
-                  <BiBrain />
+                  <BsGear />
                 </h2>
-                <h1>DEPRESSION</h1>
+                <h1>PROVEN METHODS</h1>
               </div>
               <p>
-                Answer a few questions about your medical history to match with
-                your free medical assistant.
+              Our treatment methods are solely based on proven research and science-based evidence. 
               </p>
-              <div className="c3-link">
-                <p>LEARN MORE</p>
-              </div>
+
             </div>
 
             <div className="c3-card c2-card1">
               <div className="c3-card-img"></div>
               <div className="c3-card-flex">
                 <h2>
-                  <BiBrain />
+                  <BiTime />
                 </h2>
-                <h1>ANXIETY DISORDER</h1>
+                <h1>24/7 SUPPORT</h1>
               </div>
               <p>
-                Answer a few questions about your medical history to match with
-                your free medical assistant.
+              Guidance and support are always in reach. We provide care for you whenever needed. 
               </p>
-              <div className="c3-link">
-                <p>LEARN MORE</p>
-              </div>
             </div>
 
             <div className="c3-card c3-card1">
               <div className="c3-card-img"></div>
               <div className="c3-card-flex">
                 <h2>
-                  <BiBrain />
+                  <RiSuitcaseLine />
                 </h2>
-                <h1>ANGER MANAGEMENT</h1>
+                <h1>EMPLOYMENT ASSISTANCE</h1>
               </div>
               <p>
-                Answer a few questions about your medical history to match with
-                your free medical assistant.
+              Our most unique feature sets you up with interview clothes, interview skills, resume assistance, and all the resources you need to get a job with a great company.
               </p>
               <div className="c3-link">
-                <p>LEARN MORE</p>
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/jobs">
+                  <p>LEARN MORE</p>
+                </Link>
+              </LinkRoll>
               </div>
             </div>
           </div>

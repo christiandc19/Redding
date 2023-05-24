@@ -67,10 +67,12 @@ const Footer = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/mental-health">
-                  <p>Programs</p>
+                <Link to="/contact">
+                  <p>Contact Us</p>
                 </Link>
               </LinkRoll>
+
+
             </div>
 
             <div className="col">
@@ -112,36 +114,12 @@ const Footer = () => {
                 </Link>
               </LinkRoll>
 
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/contact">
-                  <p>Contact</p>
-                </Link>
-              </LinkRoll>
             </div>
 
-            {/* <div className="col">
-                        <h3>SUBSTANCE ABUSE</h3>
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse-php'><p>Partial Hospitalization Program</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse-iop'><p>Intensive Outpatient Program</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse-op'><p>Outpatient Program</p></Link>
-                        </LinkRoll>
-                    </div> */}
 
             <div className="col">
-              <h3>MENTAL HEALTH</h3>
+              <h3>PROGRAMS</h3>
+
               <LinkRoll
                 activeClass="active"
                 to="top"
@@ -149,8 +127,8 @@ const Footer = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/mental-health-php">
-                  <p>Partial Hospitalization Program</p>
+                <Link to="/mental-health">
+                  <p>Mental Health Programs</p>
                 </Link>
               </LinkRoll>
 
@@ -161,8 +139,8 @@ const Footer = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/mental-health-iop">
-                  <p>Intensive Outpatient Program</p>
+                <Link to="/substance-abuse">
+                  <p>Substance Abuse Programs</p>
                 </Link>
               </LinkRoll>
 
@@ -173,24 +151,13 @@ const Footer = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/mental-health-op">
-                  <p>Outpatient Program</p>
+                <Link to="/jobs">
+                  <p>Jobs Programs</p>
                 </Link>
               </LinkRoll>
+
             </div>
 
-            {/* <form>
-                        <h3>Join Our Team</h3>
-                        <input type="email" placeholder='Enter your email' />
-                        <FiMail className='mail-icon' />
-                        <div className="social-group">
-                            <FiInstagram className='social-icon' />
-                            <FiFacebook className='social-icon' />
-                            <FiLinkedin className='social-icon' />
-                            <FiDribbble className='social-icon' />
-                            <FiGithub className='social-icon' />
-                        </div>
-                    </form> */}
           </div>
           <p className="copyright">
             <p>
