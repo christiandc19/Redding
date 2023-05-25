@@ -59,7 +59,7 @@
 }
 
 .c3-left {
-    width: 40%;
+    width: 35%;
     margin: auto;
     padding:  0 1rem;
 }
@@ -82,7 +82,7 @@
 }
 
 .c3-right {
-    width: 50%;
+    width: 65%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -91,10 +91,11 @@
 }
 
 .c3-card {
-    width: 350px;
+    width: 400px;
     height: auto;
-    /* background-color: rgb(255, 255, 255); */
+    background-color: rgba(127, 139, 177, 0.199);
     margin: 1rem;
+    padding: 1.5rem;
 }
 
 .c3-card h1 {
@@ -174,7 +175,6 @@
         width: 100%;
         text-align: center;
         height: auto;
-        background-color: rgba(240, 207, 146, 0.39);
         padding: 1rem;
     }
 

@@ -45,7 +45,7 @@
 
 .title-wrapper{
   position:absolute;
-  width: 100vw;
+  width: max-content;
   align-items:center;
   top: 30%;
   left: 10%;
