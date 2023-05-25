@@ -85,7 +85,7 @@ const Section3 = () => {
               </p>
             </div>
 
-            <div className="c3-card c3-card1">
+            <div className="c3-card c3-card4">
               <div className="c3-card-img"></div>
               <div className="c3-card-flex">
                 <h2>

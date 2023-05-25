@@ -34,13 +34,9 @@ const TherapySA = () => {
                     duration={500}
                   >
                     <Link to="/substance-abuse">
-                      <div className="hero-btn">
-                        <button class="hero-cta">
-                          <span>VIEW ALL</span>
-                          <svg viewBox="0 0 13 10" height="10px" width="15px">
-                            <path d="M1,5 L11,5"></path>
-                            <polyline points="8 1 12 5 8 9"></polyline>
-                          </svg>
+                      <div className="sa-btn">
+                        <button class="sa-cta">
+                          VIEW ALL
                         </button>
                       </div>
                     </Link>
@@ -107,14 +103,8 @@ const TherapySA = () => {
                 duration={500}
               >
                 <Link to="/substance-abuse">
-                  <div className="hero-btn">
-                    <button class="hero-cta">
-                      <span>VIEW ALL</span>
-                      <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                      </svg>
-                    </button>
+                  <div className="sa-btn">
+                    <button>VIEW ALL</button>
                   </div>
                 </Link>
               </LinkRoll>

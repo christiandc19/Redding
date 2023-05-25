@@ -72,8 +72,9 @@
 .TherapyMH-right .box {
     height: auto;
     width: 350px;
-    background-color: rgba(238, 198, 153, 0.274);
+    background-color: rgba(148, 158, 192, 0.192);
     margin: 1rem;
+    border-radius: 10px;
 }
 
 
@@ -231,8 +232,8 @@
     .TherapyMH-right  .box{
         width: 90vw;
         flex-wrap: wrap;
-        height: 180px;
-        background-color: rgba(24, 23, 23, 0.014);
+        height: auto;
+        background-color: rgba(148, 158, 192, 0.11);
     }
 
     .TherapyMH .TherapyMH-left h1{

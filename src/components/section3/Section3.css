@@ -93,9 +93,18 @@
 .c3-card {
     width: 400px;
     height: auto;
-    background-color: rgba(127, 139, 177, 0.199);
+    background-color: rgba(148, 158, 192, 0.212);
     margin: 1rem;
     padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.c3-card4 {
+    background-color: rgba(4, 14, 71, 0.719);
+}
+
+.c3-card4 h1, .c3-card4 p {
+    color: white;
 }
 
 .c3-card h1 {
@@ -166,6 +175,11 @@
     
     .c3-card-flex {
         justify-content: center;
+    }
+
+    .c3-card4 {
+        width: 80%;
+        text-align: center;
     }
 
 }
