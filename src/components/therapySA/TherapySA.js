@@ -47,6 +47,8 @@ const TherapySA = () => {
           </Fade>
 
           <div className="TherapySA-right">
+
+          <Fade top>
             <div className="box1 box">
               <div className="box-content1">
                 <CiBeerMugFull className="box-icon" />
@@ -57,7 +59,9 @@ const TherapySA = () => {
                 </p>
               </div>
             </div>
+          </Fade>
 
+          <Fade right>
             <div className="box2 box">
               <div className="box-content2">
                 <CiPillsBottle1 className="box-icon" />
@@ -69,7 +73,9 @@ const TherapySA = () => {
                 </p>
               </div>
             </div>
+          </Fade>
 
+          <Fade left>
             <div className="box3 box">
               <div className="box-content3">
                 <RiSyringeLine className="box-icon" />
@@ -81,7 +87,10 @@ const TherapySA = () => {
                 </p>
               </div>
             </div>
+            </Fade>
 
+
+          <Fade bottom>
             <div className="box4 box">
               <div className="box-content4">
                 <TbPills className="box-icon" />
@@ -93,6 +102,7 @@ const TherapySA = () => {
                 </p>
               </div>
             </div>
+          </Fade>
 
             <div className="TherapySA-btn hide-btn">
               <LinkRoll

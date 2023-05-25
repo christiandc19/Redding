@@ -3,8 +3,6 @@
     margin: 1rem 0 ;
 }
 
-
-
 .s3-flexItem {
     width: 350px;
 }
@@ -97,10 +95,22 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 10px;
+    -webkit-box-shadow: 9px 9px 12px -6px rgba(255,255,255,0.2);
+    -moz-box-shadow: 9px 9px 12px -6px rgba(255,255,255,0.2);
+    box-shadow: 9px 9px 12px -6px rgba(0, 0, 0, 0.315);
+}
+
+.c3-card:hover {
+    background-color: rgba(11, 188, 211, 0.596);
+    color: white;
 }
 
 .c3-card4 {
     background-color: rgba(4, 14, 71, 0.719);
+}
+
+.c3-card4:hover {
+    background-color: rgba(11, 23, 192, 0.534);
 }
 
 .c3-card4 h1, .c3-card4 p {
@@ -149,6 +159,11 @@
     cursor:pointer;
   }
 
+  .c2-btn button:hover {
+    background-color: rgba(95, 104, 153, 0.945);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(58, 67, 116, 0.945);
+  }
 
 @media  screen and (max-width:1250px) {
     .c3-left {

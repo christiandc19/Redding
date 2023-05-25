@@ -25,6 +25,7 @@ const TherapyMH = () => {
           </Fade>
 
           <div className="TherapyMH-right">
+          <Fade left>
             <div className="box1 box">
               <div className="box-content">
                 <BiBrain className="box-icon" />
@@ -35,7 +36,9 @@ const TherapyMH = () => {
                 </p>
               </div>
             </div>
+          </Fade>
 
+          <Fade bottom>
             <div className="box2 box">
               <div className="box-content">
                 <BiSad className="box-icon" />
@@ -47,7 +50,9 @@ const TherapyMH = () => {
                 </p>
               </div>
             </div>
+          </Fade>
 
+          <Fade bottom>
             <div className="box3 box">
               <div className="box-content">
                 <FaTheaterMasks className="box-icon" />
@@ -59,7 +64,9 @@ const TherapyMH = () => {
                 </p>
               </div>
             </div>
+          </Fade>
 
+          <Fade right>
             <div className="box4 box">
               <div className="box-content">
                 <GiBrain className="box-icon" />
@@ -71,8 +78,9 @@ const TherapyMH = () => {
                 </p>
               </div>
             </div>
+            </Fade>
           </div>
-
+        
           <div className="TherapyMH-btn">
             <LinkRoll
               activeClass="active"

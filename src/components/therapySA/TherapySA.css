@@ -43,6 +43,7 @@
 .TherapySA .TherapySA-left {
     width: 500px;
     margin: auto;
+    padding: 1rem;
 }
 
 .TherapySA .left-content {
@@ -83,6 +84,13 @@
     width: 350px;
     padding: 1rem;
     background-color: rgba(24, 23, 23, 0.247);
+    -webkit-box-shadow: 9px 9px 12px -6px rgba(255,255,255,0.2);
+    -moz-box-shadow: 9px 9px 12px -6px rgba(255,255,255,0.2);
+    box-shadow: 9px 9px 12px -6px rgba(255,255,255,0.2);
+}
+
+.TherapySA-right .box:hover {
+    border: 1px solid rgba(255, 255, 255, 0.37);
 }
 
 
@@ -168,6 +176,11 @@
     letter-spacing: 2px;
 }
 
+.sa-btn button:hover {
+    background-color: rgba(244, 244, 245, 0.24);
+    cursor: pointer;
+    border: 1px solid white;
+}
 
 
 .hide-btn {

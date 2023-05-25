@@ -2,6 +2,7 @@ import React from "react";
 import "./Section3.css";
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
+import Fade from "react-reveal/Fade";
 
 
 import { BsPeople } from "react-icons/bs";
@@ -18,17 +19,24 @@ const Section3 = () => {
 
         <div className="component3 container">
           <div className="c3-left">
-            <h2>WHO WE ARE </h2>
+            <Fade left>
+              <h2>WHO WE ARE </h2>
+            </Fade>
+            <Fade right>
             <h1>
               Redding Rehab makes getting treatment{" "}
               <i>
                 <span>simple</span>
               </i>
             </h1>
+            </Fade>
+            <Fade left>
             <p>
               Your personal medical assistant is always a message away for
               anything you need, at no cost.
             </p>
+            </Fade>
+            <Fade bottom>
             <div className="c2-btn">
               <LinkRoll
                 activeClass="active"
@@ -42,9 +50,12 @@ const Section3 = () => {
                 </Link>
               </LinkRoll>
             </div>
+            </Fade>
           </div>
 
           <div className="c3-right container">
+
+          <Fade left>
             <div className="c3-card c3-card1">
               <div className="c2-card-img"></div>
               <div className="c3-card-flex">
@@ -57,7 +68,9 @@ const Section3 = () => {
               The medical professionals on our team are completely dedicated to your recovery.
               </p>
             </div>
+          </Fade>
 
+          <Fade right>
             <div className="c3-card c3-card1">
               <div className="c3-card-img"></div>
               <div className="c3-card-flex">
@@ -69,9 +82,10 @@ const Section3 = () => {
               <p>
               Our treatment methods are solely based on proven research and science-based evidence. 
               </p>
-
             </div>
+          </Fade>
 
+          <Fade left>
             <div className="c3-card c2-card1">
               <div className="c3-card-img"></div>
               <div className="c3-card-flex">
@@ -84,6 +98,7 @@ const Section3 = () => {
               Guidance and support are always in reach. We provide care for you whenever needed. 
               </p>
             </div>
+          </Fade>
 
             <div className="c3-card c3-card4">
               <div className="c3-card-img"></div>
