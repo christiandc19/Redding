@@ -59,9 +59,10 @@
 }
 
 .c3-left {
-    width: 35%;
+    width: 30%;
     margin: auto;
     padding:  0 1rem;
+    text-align: left;
 }
 
 .c3-left p {
@@ -86,16 +87,15 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-
     justify-content: center;
 }
 
 .c3-card {
-    width: 400px;
+    width: 320px;
     height: auto;
     background-color: rgba(148, 158, 192, 0.212);
-    margin: 1rem;
-    padding: 1.5rem;
+    margin: .5rem;
+    padding: 1rem;
     border-radius: 10px;
 }
 
@@ -150,7 +150,7 @@
   }
 
 
-@media  screen and (max-width:1450px) {
+@media  screen and (max-width:1250px) {
     .c3-left {
         width: 100%;
         text-align: center;

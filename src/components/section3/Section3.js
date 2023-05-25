@@ -44,7 +44,7 @@ const Section3 = () => {
             </div>
           </div>
 
-          <div className="c3-right">
+          <div className="c3-right container">
             <div className="c3-card c3-card1">
               <div className="c2-card-img"></div>
               <div className="c3-card-flex">
