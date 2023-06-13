@@ -164,7 +164,7 @@
     }
 
     .menu-item .sub__menus li a {
-        font-size: 14px;
+        font-size: 12px;
       }
 
       li .submenu-header {
@@ -176,7 +176,7 @@
       }
 
       .sub__menus {
-        width: 320px;
+        width: 280px;
       }
 
       .navbar {

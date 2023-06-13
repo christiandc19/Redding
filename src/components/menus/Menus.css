@@ -78,6 +78,10 @@
   transition: all 0.6s ease-in-out;
 }
 
+.mh-animate-text button {
+  margin: 1rem 0;
+}
+
 .mh-tile:hover {
 /*   background-color:#99aeff; */
 box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
@@ -117,6 +121,9 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 font-family: 'Montserrat', sans-serif;
 }
 
+.sa-animate-text button {
+  margin: 1rem 0;
+}
 
 @media (max-width: 940px) {
   .mh-card-wrap {

@@ -4,7 +4,6 @@ import Fade from "react-reveal/Fade";
 import { Link as LinkRoll } from "react-scroll";
 import "./Menus.css";
 
-import Contact2 from "../contact/Contact2";
 import SubCardBg from "../../assets/sub-card-bg-min.jpg";
 
 import Card1 from "../../assets/card1.jpg";
@@ -350,8 +349,6 @@ const Menus = () => {
           </div>
         </div>
       </div>
-
-      <Contact2 />
     </>
   );
 };

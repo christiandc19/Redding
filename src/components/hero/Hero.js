@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
+
 import Fade from "react-reveal/Fade";
 import "./Hero.css";
 import Hero1 from '../../assets/hero-1-min.jpg'
@@ -37,11 +39,19 @@ const Hero = () => {
         <div className="hero-btn">
 
           <div>
+          <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
             <Link to="/contact">
               <Fade left>
                 <button>CALL US</button>
               </Fade>
             </Link>
+            </LinkRoll>
           </div>
 
           <div className="hero-btn2">

@@ -4,7 +4,6 @@ import Fade from "react-reveal/Fade";
 import { Link as LinkRoll } from "react-scroll";
 import "./MenusSA.css";
 
-import Contact2 from "../contact/Contact2";
 import SubCardBg from "../../assets/sub-card-bg-min.jpg";
 
 import Card1 from "../../assets/card1.jpg";
@@ -62,7 +61,7 @@ const MenusSA = () => {
             <h1>Intensive Outpatient Program</h1>
             <p class="mh-animate-text">
               No matter what type of addiction or mental health condition you
-              are dealing with, there’s something for everyone at Santa Monica.
+              are dealing with, there’s something for everyone at Redding Rehab.
             </p>
             <div class="mh-animate-text">
               <LinkRoll
@@ -399,7 +398,6 @@ const MenusSA = () => {
         </div>
       </div>
 
-      <Contact2 />
     </>
   );
 };
