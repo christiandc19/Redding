@@ -1,19 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 .wrapper1 {
-    padding: 0 0 5rem 0;
-    /* background: #F0EFE3; */
-}
+    width: 100%;
+    height: auto;
+    background: rgba(21, 3, 27, 0);
+    position: relative;
+  }
+  
+  .wrapper1:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/bg.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.07;
+  }
+
+
 
 .wrapper-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 4rem 0;
 }
 
 .wrapper-content-left {
     width: 50%;
     text-align: center;
+    margin: auto;
 }
 
 .wrapper-content-left img {
@@ -26,17 +42,21 @@
     padding: 0 2rem;
 }
 
+.wrapper-content-right h1 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
 
 .wrapper-content-right h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #E2AB7F;
 }
 
-.wrapper-content-right h1 {
-    text-transform: uppercase;
-    color: #6D4321;
-    font-size: 1rem;
-    letter-spacing: 8px; 
+.wrapper-content-right p {
+    text-align: justify; 
+    font-size: 14px;
 }
 
 

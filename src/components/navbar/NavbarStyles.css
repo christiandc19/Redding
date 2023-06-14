@@ -100,7 +100,7 @@
     border: 1px solid lavender;
     border-radius: 10px;
     width: 300px;
-    left: -17px;
+    left: -50px;
     padding: 2px 0 0 0;
     margin-top: 6px;
     z-index: 1000;
@@ -168,7 +168,7 @@
       }
 
       li .submenu-header {
-        font-size: 14px;
+        font-size: 12px;
       }
 
       #submenu-item li {
@@ -176,7 +176,7 @@
       }
 
       .sub__menus {
-        width: 280px;
+        width: 275px;
       }
 
       .navbar {
