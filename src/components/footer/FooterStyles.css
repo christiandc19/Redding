@@ -48,17 +48,21 @@
     color: rgb(68, 67, 67);
 }
 
+.col {
+    width: 300px;
+}
+
 .footer .col-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
     padding: 1rem;
     width: 100%;
 }
 
-
-
 .footer h3 {
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0;
     text-transform: uppercase;
     text-align: center;
 }
