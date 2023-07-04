@@ -12,14 +12,17 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+                // Popup message after send button is clicked
+                const feedbackEl = document.querySelector(".feedback");
+                feedbackEl.setAttribute("class", "feedback");
+                setTimeout(function() {
+                feedbackEl.setAttribute("class", "feedback hidden");
+                }, 3000);
+
+
+
     //    Service Id        Template Id                 Public Key (Account Tab)
-    emailjs
-      .sendForm(
-        "service_9v2gipl",
-        "template_rxc8sbg",
-        form.current,
-        "Rj5e7bWJla-kOEL0H"
-      )
+    emailjs.sendForm('service_hsunksm', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
       .then(
         (result) => {
           console.log(result.text);
@@ -49,51 +52,33 @@ const ContactForm = () => {
                   <br />
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
+
                   <div class="inputs">
-                    <input
-                      type="text"
-                      name="name"
-                      placeholder="Your Name"
-                      required
-                    />{" "}
-                    <br />
-                    <input
-                      type="text"
-                      name="email"
-                      placeholder="Your Email"
-                      required
-                    />{" "}
-                    <br />
-                    <input
-                      type="tel"
-                      name="phone"
-                      placeholder="Your Phone"
-                      required
-                    />{" "}
-                    <br />
-                    <input
-                      type="text"
-                      name="subject"
-                      placeholder="Subject"
-                      required
-                    />{" "}
-                    <br />
+                    <input type="text" name="name" placeholder="Your Name" required/> <br />
+                    <input type="text" name="email" placeholder="Your Email" required/> <br />
+                    <input type="tel" name="phone" placeholder="Your Phone" required/> <br />
+                    <input type="text" name="subject" placeholder="Subject" required/> <br />
                   </div>
+
                   <div>
-                    <textarea
-                      name="message"
-                      placeholder="How can we help?"
-                      cols="30"
-                      rows="10"
-                      required
-                    ></textarea>
+                    <textarea name="message" placeholder="How can we help?" cols="30" rows="10" required></textarea>
                     <input type="submit" value="Submit" />
+
+                    <div className="textarea2 feedback hidden">
+                      <textarea name="message2" cols="30" rows="3" required>Message Sent to Redding Rehab!</textarea>
+                    </div>
                   </div>
+
                 </form>
+
               </div>
             </div>
           </div>
         </section>
+
+
+
+
 
         <div className="contact-cards-container">
           <div class="get_form_inner2">

@@ -94,6 +94,24 @@
   resize: none;
 }
 
+
+.textarea2 textarea {
+  border: none;
+  color: rgb(53, 82, 42);
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+  margin-bottom: 2rem;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  z-index: 2;
+}
+
+
 .right-side .message-box{
   min-height: 110px;
 }
@@ -102,7 +120,7 @@
   padding-top: 6px;
 }
 
-.right-side .button{
+.right-side .button {
   display: inline-block;
   margin-top: 12px;
 }
